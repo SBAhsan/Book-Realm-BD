@@ -3,8 +3,7 @@ import BookImage from "../../assets/open-flying-old-books.png";
 
 const Banner = () => {
   return (
-    <div>
-      <div className="hero bg-cyan-200 min-h-screen">
+      <div className="hero bg-cyan-200 py-30">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={BookImage}
@@ -23,15 +22,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      {/* <div>
-        
-        <button className="px-5 py-2 bg-amber-300 rounded-xl">
-          
-        </button>
-      </div>
-      <img src={BookImage} className="h-50 w-50" alt="" /> */}
-    </div>
-  );
+      );  
 };
 
 export default Banner;

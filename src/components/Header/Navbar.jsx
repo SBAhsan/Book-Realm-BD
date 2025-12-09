@@ -1,15 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Navbar = () => {
 
     const links = <>
-         <li className='m-5'>Home</li>
+         <Link to='/'><li className='m-5'>Home</li></Link>
          <li className='m-5'>About</li>
     </>
 
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-sm">
+            <div className="navbar bg-cyan-600 shadow-sm">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,7 +30,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+    <a className="btn px-5 py-2 bg-amber-300 rounded-xl">Button</a>
   </div>
 </div>
         </div>
