@@ -30,7 +30,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn px-5 py-2 bg-amber-300 rounded-xl">Button</a>
+    <a className="px-5 py-2 bg-amber-300 rounded-xl">Button</a>
   </div>
 </div>
         </div>
